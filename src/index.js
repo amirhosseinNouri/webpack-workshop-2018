@@ -2,6 +2,7 @@ import nav from './nav';
 import footer from './footer';
 import makeButton from './button';
 import { makeColorStyle } from './button-styles';
+import './footer.css';
 
 const newButton = makeButton('Click me!!');
 newButton.style = makeColorStyle('teal');
