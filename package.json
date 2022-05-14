@@ -10,7 +10,8 @@
     "dev": "npm run webpack-dev-server -- --mode development --hot",
     "prod:debug": "npm run debug -- --mode production",
     "dev:debug": "npm run debug -- --mode development",
-    "webpack-dev-server": "webpack-dev-server"
+    "webpack-dev-server": "webpack-dev-server",
+    "prod:typescript": "npm run prod -- --env.presets typescript"
   },
   "repository": {
     "type": "git",
