@@ -11,7 +11,8 @@
     "dev": "npm run webpack-dev-server -- --env.mode development --hot",
     "prod:typescript": "npm run prod -- --env.presets typescript",
     "prod:debug": "npm run debug -- --env.mode production",
-    "dev:debug": "npm run debug -- --env.mode development"
+    "dev:debug": "npm run debug -- --env.mode development",
+    "prod:analyze": "npm run prod -- --env.presets analyze"
   },
   "repository": {
     "type": "git",
@@ -34,14 +35,14 @@
     "mini-css-extract-plugin": "^0.8.0",
     "postcss-loader": "^3.0.0",
     "style-loader": "^0.23.1",
-    "typescript": "^3.5.3",
     "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
     "url-loader": "^2.1.0",
     "webpack": "^4.39.1",
-    "webpack-bundle-analyzer": "^3.4.1",
+    "webpack-bundle-analyzer": "^3.9.0",
     "webpack-cli": "^3.3.6",
-    "webpack-merge": "^4.2.1",
     "webpack-dev-server": "^3.7.2",
+    "webpack-merge": "^4.2.1",
     "webpack-node-externals": "^1.7.2",
     "workbox-webpack-plugin": "^4.3.1"
   },
