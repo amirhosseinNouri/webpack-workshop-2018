@@ -8,7 +8,9 @@ module.exports = (env, argv) => {
   return webpackMerge.merge(
     {
       module: {
-        rules: [{ test: /\.jpe?g$/, use: ['url-loader'] }],
+        rules: [{ test: /\.jpe?g$/, use: [ {loader: 'url-loader' , options: {
+          limit: 5000
+        }}] }],
       },
       output: {
         filename: 'bundle.js',
